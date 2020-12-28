@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root{
+    --primary-color: #7C3AED;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,4 +17,21 @@ body{
     width: 600px;
     margin: auto;
 
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    }
+
+.link-primary{
+    background-color:  var(--primary-color);
+    border-radius: 00.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
 }

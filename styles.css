@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -105,4 +106,17 @@ hr {
 
 .ow{
     background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+      padding: 2rem;
+      text-align: center;
+      color: white;
+      border-bottom-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
 }
